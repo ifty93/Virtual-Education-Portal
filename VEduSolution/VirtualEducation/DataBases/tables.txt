@@ -1,0 +1,11 @@
+Database:
+MyDB
+
+Tables:
+UserInfo -> username password type
+StudentInfo -> username fullname email gender dob
+TeacherInfo -> username fullname email gender dob inst dept
+
+ConString:
+@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\VEduSolution\VirtualEducation\DataBases\MyDB.mdf;Integrated Security=True;Connect Timeout=30"
+Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\VEduSolution\VirtualEducation\DataBases\MyDB.mdf;Integrated Security=True;Connect Timeout=30

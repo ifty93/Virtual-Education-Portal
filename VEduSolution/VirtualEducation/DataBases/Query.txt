@@ -1,0 +1,8 @@
+229, 126, 49
+
+select * from ##Products
+insert into ##Products(#Name,#Price) values('*val1','*val2');
+update ##Products set #colName1='*val1', #colName2='*val2' where #id='*idval';
+delete from ##Products where #id='*idval';
+
+comboBox1.Items.Add('string');
